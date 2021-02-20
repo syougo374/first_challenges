@@ -114,9 +114,16 @@ ul.top_menu {
 .submit {
   background-color: #199901;
   color: #fff;
+  border: none;
+  font-size: 3rem;
+}
+.submit:hover {
+  opacity: 0.5;
+  background-color: #002199;
+  color: #000;
 }
 .wrapper {
-  margin: 10px;
+  /* margin: 10px; */
   padding-bottom: 100px;
 }
 .textarea {
